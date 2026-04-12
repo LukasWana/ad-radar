@@ -1,0 +1,36 @@
+{
+  "queries": [
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "language": "CZ"
+    },
+    {
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "language": "CZ"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "language": "CZ"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "language": "CZ"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "language": "EN"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "language": "EN"
+    }
+  ],
+  "scroll_count": 8,
+  "scroll_delay_seconds": 1.2
+}

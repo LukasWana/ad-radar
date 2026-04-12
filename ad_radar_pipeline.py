@@ -23,13 +23,22 @@ YOUTUBE_CHANNEL_ID = "UC2EVergrsTcwpZbAeboHSQQ"
 # Setup path for imports
 WS_DIR = Path(__file__).parent
 SCRAPER_PATH = WS_DIR.parent / "web-scraper"
+SCRAPER_MANAGER_PATH = WS_DIR.parent.parent / "scripts"
 sys.path.insert(0, str(SCRAPER_PATH))
+sys.path.insert(0, str(SCRAPER_MANAGER_PATH))
 
 try:
     from web_scraper import WebScraper
 except ImportError:
     print("web_scraper not found in skills/web-scraper/")
     sys.exit(1)
+
+try:
+    from scraper_manager import scrape as scraper_manager_scrape, HAS_PLAYWRIGHT
+except ImportError:
+    scraper_manager_scrape = None
+    HAS_PLAYWRIGHT = False
+    print("scraper_manager not found")
 
 # DB_PATH
 DB_PATH = WS_DIR / "ad_radar.db"
@@ -203,6 +212,16 @@ class AdRadarPipeline:
             "url": "https://www.mediar.cz/galerie-reklamy/",
             "selector": "a[href*='/galerie-reklamy/' i]",
         },
+        "muz_li_banner": {
+            "url": "https://muz.li/inspiration/banner-examples/",
+            "type": "editorial",
+            "selector": "h2, h3, p",
+        },
+        "bannerflow": {
+            "url": "https://www.bannerflow.com/blog/display-advertising-best-banner-ads",
+            "type": "editorial",
+            "selector": "h2, h3, p",
+        },
         "youtube_works_awards": {
             "type": "youtube_playlist",
             "playlist_id": "PLzCg1lz81rBeNdKxFlS6fNQnP4rX4MNq-",
@@ -308,16 +327,13 @@ class AdRadarPipeline:
                         continue
                     
                     # Parse YouTube RSS: extract video IDs and titles
-                    # YouTube RSS is NOT standard XML - titles are plain text lines
                     text = result.get("extracted", "")
                     lines = text.split('\n')
                     
-                    # Find all video entries (lines starting with yt:video:)
                     video_entries = []
                     for i, line in enumerate(lines):
                         if line.strip().startswith('yt:video:'):
                             video_id = line.strip().split('yt:video:')[1]
-                            # Title is 3 lines after the ID line (after ID repeat, channel ID)
                             if i + 3 < len(lines):
                                 title = lines[i + 3].strip()
                                 video_entries.append((video_id, title))
@@ -327,6 +343,14 @@ class AdRadarPipeline:
                         discovered.append((source_name, youtube_url))
                     
                     print(f"  Found {len(video_entries)} videos")
+                    continue
+                
+                # Handle editorial content (muz.li, bannerflow - articles about ads, not campaigns)
+                if config.get("type") == "editorial":
+                    print(f"Discovering from {source_name} (Editorial)...")
+                    # Just use the article URL itself as a "campaign"
+                    discovered.append((source_name, config["url"]))
+                    print(f"  Found 1 article")
                     continue
                 
                 # Regular web scraping
@@ -446,6 +470,27 @@ class AdRadarPipeline:
                     continue
                 
                 # Regular web scraping
+                # Use scraper_manager for JS-heavy sites (adsoftheworld, etc.)
+                should_use_sm = (
+                    scraper_manager_scrape is not None and
+                    ("adsoftheworld.com" in full_url or "campaignbrief" in source_name)
+                )
+                if should_use_sm:
+                    sm_result = scraper_manager_scrape(full_url)
+                    if sm_result and sm_result.get("success"):
+                        from bs4 import BeautifulSoup
+                        soup = BeautifulSoup(sm_result["data"], "html.parser")
+                        title_tag = soup.find("title")
+                        title = title_tag.get_text(" ", strip=True) if title_tag else ""
+                        text = soup.get_text(" ", strip=True)
+                        campaign = self._parse_campaign(full_url, text, title, source_name)
+                        campaign.score = self._calculate_score(campaign, text)
+                        campaign.category = self._categorize(text)
+                        if campaign.score >= self.min_score:
+                            campaigns.append(campaign)
+                    time.sleep(self.rate_limit_delay)
+                    continue
+                
                 result = self.scraper.extract(full_url, extract_type="article")
                 
                 if result["error"] or not result["extracted"]:

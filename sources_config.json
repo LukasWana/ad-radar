@@ -1,0 +1,39 @@
+{
+  "sources": {
+    "pinterest": {
+      "enabled": true,
+      "config_file": "pinterest_config.json",
+      "output_file": "pinterest_ads.json",
+      "priority": 1,
+      "category": "creative"
+    },
+    "google_ad_transparency": {
+      "enabled": true,
+      "advertisers": ["Alza.cz", "Mall.cz", "Notino", "Rossmann"],
+      "priority": 2,
+      "category": "meta"
+    },
+    "adsoftheworld": {
+      "enabled": true,
+      "priority": 3,
+      "category": "campaigns"
+    },
+    "youtube_works_awards": {
+      "enabled": true,
+      "playlist_id": "PLzCg1lz81rBeNdKxFlS6fNQnP4rX4MNq-",
+      "priority": 4,
+      "category": "video"
+    },
+    "mediacz": {
+      "enabled": true,
+      "url": "https://www.mediar.cz/galerie-reklamy/",
+      "priority": 5,
+      "category": "print"
+    }
+  },
+  "dashboard": {
+    "max_daily_ads": 10,
+    "dedup_days": 30,
+    "min_score": 5
+  }
+}
