@@ -1,9 +1,23 @@
 {
-  "scraped_at": "2026-04-12 14:24:44",
+  "scraped_at": "2026-04-12 16:39:15",
   "config_queries": 6,
-  "total_raw": 152,
-  "total_unique": 152,
+  "total_raw": 157,
+  "total_unique": 157,
   "ads": [
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/83/9c/d4/839cd454af354ad824811ef15a1fe6da.jpg",
+      "description": "a sign on the sidewalk that says if tax time makes you uglywagt to burn your head",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/3b/e2/53/3be253e491b5a54e9ab613076da05fb2.jpg",
+      "description": "an orange and corn on the cob advertisement is featured in this ad for air tac",
+      "source": "pinterest"
+    },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
@@ -14,78 +28,22 @@
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/81/47/d7/8147d7f8b2357ee394647b222c44bfd9.jpg",
-      "description": "a sign on the sidewalk that says new season with a young man sitting on it",
+      "image_url": "https://i.pinimg.com/236x/e6/bb/59/e6bb590adcd7576aad0cbf76bd19d961.jpg",
+      "description": "an alien holding a can of coca - cola in his right hand and looking at the camera",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/93/ea/94/93ea948ccae477f71a222ee508779917.jpg",
-      "description": "a man is holding a red tool in front of some squares with different pictures on it",
+      "image_url": "https://i.pinimg.com/236x/5d/0b/99/5d0b99539b7df1f89194e3eb3130d3e0.jpg",
+      "description": "an advertisement for dunkin'donuts is shown in the shape of a cup",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/0d/d1/36/0dd13617804bc7f55eaf46f4f46d2f80.jpg",
-      "description": "an electronic device is flying through the air with its antenna attached to it's back end",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/12/36/c3/1236c370cf0dcaf5dbb4a6ab2f2f545d.jpg",
-      "description": "someone is holding their cell phone while riding an electric scooter",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/4d/2f/a4/4d2fa49b24ffa60ff7aec075fc225c65.jpg",
-      "description": "two men riding motorcycles on a road with the caption india becomes world's 4th largest economy",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/36/6e/19/366e193cdc1f58f2816a8b68cc5d9a78.jpg",
-      "description": "an advertisement for the new oppo online store, with three phones in different colors",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/0b/04/6b/0b046b3568487311168b90184f179f7a.jpg",
-      "description": "Carbon Emissions Scale, Tire Comparison Advertisement, Sustainable Energy Campaign, Sustainable Car Advertisement, Eco-friendly Toyota Advertising, Understanding Public Transport Ads, Eco-friendly Car",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/79/1b/b7/791bb72b755052b7c00547a5b2467e09.jpg",
-      "description": "three red cans with wifi on them sitting next to each other in front of an orange background",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/13/e2/1a/13e21a640d5e9eb3d75f0227e018db5e.jpg",
-      "description": "a pixelated dollar bill with an arrow pointing to the one hundred dollar bill on it",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/c1/9f/ec/c19fecda224d1bc48fcbca7c943b467e.jpg",
-      "description": "an advertisement for orange juice being poured into a glass with the caption that reads, i unclogged the fuel hose and ended up swal flowing ethanol",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/c6/d5/58/c6d55848036335a6aac1ea2499165b16.jpg",
-      "description": "two images of the back of a person with light coming out of their head and in front of them",
+      "image_url": "https://i.pinimg.com/236x/36/e6/cf/36e6cff94910eb511ce4710d0aca665a.jpg",
+      "description": "a dog laying on the floor next to a robot vacuum and mopping in one go",
       "source": "pinterest"
     },
     {
@@ -98,36 +56,29 @@
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/77/5c/22/775c22ecaaeeaf9e7f6eef6285209bad.jpg",
-      "description": "a red book cover with the words is your indecision final?",
+      "image_url": "https://i.pinimg.com/236x/36/6e/19/366e193cdc1f58f2816a8b68cc5d9a78.jpg",
+      "description": "an advertisement for the new oppo online store, with three phones in different colors",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/17/cb/0d/17cb0db03515e9c5851d2648a29ab299.jpg",
-      "description": "the book cover for the ecomistt, with an image of a keyhole",
+      "image_url": "https://i.pinimg.com/236x/99/47/47/994747026dc4df7a9e23b6bb4d5b7e96.jpg",
+      "description": "two packages of cereal are shown in this ad for nestle's new products",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/a4/fa/39/a4fa3954fcd92223e0afb96dcc1adfe2.jpg",
-      "description": "a red background with the words money talks, but sometimes it needs an interpeter",
+      "image_url": "https://i.pinimg.com/236x/16/c1/02/16c102ef887d9f6f67974739be11634c.jpg",
+      "description": "an advertisement for street easy is displayed on the wall",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/6d/3b/d0/6d3bd06e989a0d5adda347cb297106e4.jpg",
-      "description": "a water dispenser is shown on a white background with no image to describe",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/c3/e3/93/c3e393cd7c35d8bfce905fe5312d7f77.jpg",
-      "description": "a coffee cup with an image of two people on it and a bar in the background",
+      "image_url": "https://i.pinimg.com/236x/4d/2f/a4/4d2fa49b24ffa60ff7aec075fc225c65.jpg",
+      "description": "two men riding motorcycles on a road with the caption india becomes world's 4th largest economy",
       "source": "pinterest"
     },
     {
@@ -140,6 +91,69 @@
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/93/ea/94/93ea948ccae477f71a222ee508779917.jpg",
+      "description": "a man is holding a red tool in front of some squares with different pictures on it",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/e3/67/b8/e367b8f237fa3f343e3ef6a77db558ed.jpg",
+      "description": "an advertisement for toblerone chocolate, with the word'no one'on it",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/12/36/c3/1236c370cf0dcaf5dbb4a6ab2f2f545d.jpg",
+      "description": "someone is holding their cell phone while riding an electric scooter",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/0b/04/6b/0b046b3568487311168b90184f179f7a.jpg",
+      "description": "Carbon Emissions Scale, Tire Comparison Advertisement, Sustainable Energy Campaign, Sustainable Car Advertisement, Eco-friendly Toyota Advertising, Understanding Public Transport Ads, Eco-friendly Car",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/0d/d1/36/0dd13617804bc7f55eaf46f4f46d2f80.jpg",
+      "description": "an electronic device is flying through the air with its antenna attached to it's back end",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/77/5c/22/775c22ecaaeeaf9e7f6eef6285209bad.jpg",
+      "description": "a red book cover with the words is your indecision final?",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/c1/9f/ec/c19fecda224d1bc48fcbca7c943b467e.jpg",
+      "description": "an advertisement for orange juice being poured into a glass with the caption that reads, i unclogged the fuel hose and ended up swal flowing ethanol",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/17/cb/0d/17cb0db03515e9c5851d2648a29ab299.jpg",
+      "description": "the book cover for the ecomistt, with an image of a keyhole",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/6d/3b/d0/6d3bd06e989a0d5adda347cb297106e4.jpg",
+      "description": "a water dispenser is shown on a white background with no image to describe",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
       "image_url": "https://i.pinimg.com/236x/50/6e/b7/506eb7a783661ddf14d78d9dee9af788.jpg",
       "description": "some people just get it the ecomistt is on display in this red poster",
       "source": "pinterest"
@@ -147,29 +161,8 @@
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/cb/90/8a/cb908a0eb49562ec75338ae89a365d77.jpg",
-      "description": "a black car parked in front of a tall building",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/95/39/59/953959a724536ce1cdcef10efdadcf03.jpg",
-      "description": "a woman using a vacuum cleaner on the floor",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/6a/d3/41/6ad3416e709704a5adca280becb23895.jpg",
-      "description": "a woman sitting in the driver's seat of a car with her hand on her chin",
-      "source": "pinterest"
-    },
-    {
-      "query": "alza.cz advertising",
-      "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/7f/47/f2/7f47f2ede0f3c015a0cbb1b040ffda1f.jpg",
-      "description": "an advertisement for the expedia comu is displayed on a bus stop wall",
+      "image_url": "https://i.pinimg.com/236x/79/1b/b7/791bb72b755052b7c00547a5b2467e09.jpg",
+      "description": "three red cans with wifi on them sitting next to each other in front of an orange background",
       "source": "pinterest"
     },
     {
@@ -182,36 +175,50 @@
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/04/80/6a/04806adc96369f335dc5b001358420c1.jpg",
-      "description": "a red car is parked in front of a table with a white cloth on it",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/43/42/44/434244141b77cef963fd80414fb559db.0000000.jpg",
+      "description": "This may contain: a black background with an orange and green sign on the left, and a yellow sign on the right that says your digital future starts here - with softshift innovation never stops",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/44/91/5c/44915c7fa9c9013706b8b46bbae7884d.jpg",
-      "description": "an advertisement for a chain company is shown in black and gold chains are connected to each other",
+      "image_url": "https://i.pinimg.com/236x/fb/0c/77/fb0c77c4f653ee737d2b7ea68fe2d3d2.jpg",
+      "description": "two men are standing next to each other in front of a poster that says no more aus",
       "source": "pinterest"
     },
     {
       "query": "alza.cz advertising",
       "label": "Alza CZ",
-      "image_url": "https://i.pinimg.com/236x/e2/c2/43/e2c243ebfa9df6ead619977e4f75f90c.jpg",
-      "description": "a truck is parked in front of a gas station with the words stop and stare mobile media on it",
+      "image_url": "https://i.pinimg.com/236x/c3/e3/93/c3e393cd7c35d8bfce905fe5312d7f77.jpg",
+      "description": "a coffee cup with an image of two people on it and a bar in the background",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/a4/fa/39/a4fa3954fcd92223e0afb96dcc1adfe2.jpg",
+      "description": "a red background with the words money talks, but sometimes it needs an interpeter",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/76/17/77/7617777567688fa42e69867f74a5c6b7.jpg",
+      "description": "a poster with the words i love ky and an image of a heart on it",
+      "source": "pinterest"
+    },
+    {
+      "query": "alza.cz advertising",
+      "label": "Alza CZ",
+      "image_url": "https://i.pinimg.com/236x/a2/a4/f9/a2a4f9b250334c6125abfdf5d0534e09.jpg",
+      "description": "an advertisement for tic tea featuring two people kissing in front of a red background",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/17/75/6b/17756ba05147de39ce23f7afed1a79f5.jpg",
-      "description": "a woman in a blue dress and hat sitting on a chair",
-      "source": "pinterest"
-    },
-    {
-      "query": "mall.cz reklama",
-      "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/28/62/11/28621130710ff4b95ae42661d63fe553.jpg",
-      "description": "a man is walking down the stairs carrying a bag and shopping bags in front of him",
+      "image_url": "https://i.pinimg.com/236x/18/8b/4c/188b4c1822ff54af4a8bef8921943cdc.jpg",
+      "description": "three women are walking through the mall with shopping bags in their hands and one is wearing a hijab",
       "source": "pinterest"
     },
     {
@@ -219,20 +226,6 @@
       "label": "Mall CZ",
       "image_url": "https://i.pinimg.com/236x/50/82/74/5082747276dee95249affedd8c175a65.jpg",
       "description": "an advertisement for the miki festival in japan",
-      "source": "pinterest"
-    },
-    {
-      "query": "mall.cz reklama",
-      "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/bb/28/32/bb2832bde60a5c29a0b8c1df3f7fc435.jpg",
-      "description": "a shopping cart filled with oranges on top of a white background that says moree",
-      "source": "pinterest"
-    },
-    {
-      "query": "mall.cz reklama",
-      "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/f2/be/a7/f2bea7c756e92dc0274c38a7aca66491.jpg",
-      "description": "several cars parked in front of a media expert building",
       "source": "pinterest"
     },
     {
@@ -252,8 +245,8 @@
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/1d/8c/c3/1d8cc353708d5c72a36bfffd60fe6f5b.jpg",
-      "description": "the flyer for an electronics store",
+      "image_url": "https://i.pinimg.com/236x/28/62/11/28621130710ff4b95ae42661d63fe553.jpg",
+      "description": "a man is walking down the stairs carrying a bag and shopping bags in front of him",
       "source": "pinterest"
     },
     {
@@ -266,43 +259,29 @@
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/97/0d/10/970d1006aa0972a538a98440fda22355.jpg",
-      "description": "an advertisement for bravo genlik mall - da in front of a building with people walking around it",
+      "image_url": "https://i.pinimg.com/236x/c2/65/e5/c265e5e2760a12f3a9c84b5492bcf7b2.jpg",
+      "description": "a man standing in front of an advertisement with doughnuts hanging from strings above him",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/0a/19/60/0a19601f240d903cd4555cf1e4319bc7.jpg",
-      "description": "an advertisement for the makupne mananacky shopping bag on a pink background",
+      "image_url": "https://i.pinimg.com/236x/1d/8c/c3/1d8cc353708d5c72a36bfffd60fe6f5b.jpg",
+      "description": "the flyer for an electronics store",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/97/bc/6f/97bc6fb7737b57987c0e39a9446828f2.jpg",
-      "description": "an advertisement for cell phones and electronics in spanish, with prices on the front page",
+      "image_url": "https://i.pinimg.com/236x/bb/28/32/bb2832bde60a5c29a0b8c1df3f7fc435.jpg",
+      "description": "a shopping cart filled with oranges on top of a white background that says moree",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/57/e3/8c/57e38c61c2ef348099750aeb6acf848d.jpg",
-      "description": "Zapraszam w najbliższą niedzielę 22.03 do Elektrowni Powiśle, na Designer Market, w godzinach 11-19. Do zobaczenia😀 Crazy Colour, Atelier, Color",
-      "source": "pinterest"
-    },
-    {
-      "query": "mall.cz reklama",
-      "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/f2/6b/8f/f26b8f46190e19e42f3185b24ebd4b14.jpg",
-      "description": "an artist's rendering of a shopping mall with people walking and riding on the escalator",
-      "source": "pinterest"
-    },
-    {
-      "query": "mall.cz reklama",
-      "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/66/ef/d5/66efd5bfb4a6a73a7e6386482621e4f6.jpg",
-      "description": "an empty shopping mall with stairs leading up to the second floor",
+      "image_url": "https://i.pinimg.com/236x/45/db/e2/45dbe281cd2d6606d1cfdf114f6ca9cc.jpg",
+      "description": "a woman holding shopping bags and jumping in the air",
       "source": "pinterest"
     },
     {
@@ -322,8 +301,29 @@
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/d8/36/59/d8365932d40ae2a7dc26e46571df9ca8.jpg",
-      "description": "an advertisement for the sale of electronics",
+      "image_url": "https://i.pinimg.com/236x/97/0d/10/970d1006aa0972a538a98440fda22355.jpg",
+      "description": "an advertisement for bravo genlik mall - da in front of a building with people walking around it",
+      "source": "pinterest"
+    },
+    {
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/0a/19/60/0a19601f240d903cd4555cf1e4319bc7.jpg",
+      "description": "an advertisement for the makupne mananacky shopping bag on a pink background",
+      "source": "pinterest"
+    },
+    {
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/66/ef/d5/66efd5bfb4a6a73a7e6386482621e4f6.jpg",
+      "description": "an empty shopping mall with stairs leading up to the second floor",
+      "source": "pinterest"
+    },
+    {
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/f2/6b/8f/f26b8f46190e19e42f3185b24ebd4b14.jpg",
+      "description": "an artist's rendering of a shopping mall with people walking and riding on the escalator",
       "source": "pinterest"
     },
     {
@@ -336,22 +336,15 @@
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/ef/fd/72/effd7259637759d05beed23ff82abde9.jpg",
-      "description": "a red and white striped bag of popcorn sitting on top of a wooden floor next to a movie reel",
+      "image_url": "https://i.pinimg.com/236x/ae/d5/15/aed515ec16d474272fe355676f07a813.jpg",
+      "description": "Oberoi mall on Behance World Consumer Rights Day Creative Ads, Retro Shopping Mall Ad, How To Design Mall Ads, Modern Mall Advertising, Mall Creative Ads, Mall Advertising, Shopping Mall Creative Ads,",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/8c/3d/4a/8c3d4ab9d6782068c0a2a4dd282f397d.jpg",
-      "description": "Trendy Brown Faux Fur Outerwear, Camouflage Hose Damen, Affordable Cat Print Hoodie For Fall, Isabell Kraemer Mariechen Cardigan, Fall Winter, Brand New, Fashion Design",
-      "source": "pinterest"
-    },
-    {
-      "query": "mall.cz reklama",
-      "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/06/04/33/0604333867dc4b592ddbe8c2726e0e36.jpg",
-      "description": "a person walking past a large advertisement on the wall in a room with black tile flooring",
+      "image_url": "https://i.pinimg.com/236x/97/bc/6f/97bc6fb7737b57987c0e39a9446828f2.jpg",
+      "description": "an advertisement for cell phones and electronics in spanish, with prices on the front page",
       "source": "pinterest"
     },
     {
@@ -364,22 +357,22 @@
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/45/db/e2/45dbe281cd2d6606d1cfdf114f6ca9cc.jpg",
-      "description": "a woman holding shopping bags and jumping in the air",
+      "image_url": "https://i.pinimg.com/236x/06/04/33/0604333867dc4b592ddbe8c2726e0e36.jpg",
+      "description": "a person walking past a large advertisement on the wall in a room with black tile flooring",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/c2/62/1a/c2621aa75b72e82c97b27b57ed77010e.jpg",
-      "description": "Graphic Design // Mall Directory Ads // ULTA Beauty on Behance Ulta Flyer, Ulta Catalog, Mall Directory Design, How To Design Mall Ads, Ulta Advertisement, Cosmetics Magazine Ads, 2000s Makeup Ads, Ea",
+      "image_url": "https://i.pinimg.com/236x/57/e3/8c/57e38c61c2ef348099750aeb6acf848d.jpg",
+      "description": "Zapraszam w najbliższą niedzielę 22.03 do Elektrowni Powiśle, na Designer Market, w godzinach 11-19. Do zobaczenia😀 Crazy Colour, Atelier, Color",
       "source": "pinterest"
     },
     {
       "query": "mall.cz reklama",
       "label": "Mall CZ",
-      "image_url": "https://i.pinimg.com/236x/d0/49/59/d04959547ba0672a4a4605e91c1e770b.jpg",
-      "description": "an advertisement for a cell phone with hands on the screen and text that reads, media mark",
+      "image_url": "https://i.pinimg.com/236x/7f/0d/ff/7f0dff5d45c42b7856e0a13c1825e997.jpg",
+      "description": "an advertisement for frozen watermelon and other items in the store's catalogue",
       "source": "pinterest"
     },
     {
@@ -390,17 +383,31 @@
       "source": "pinterest"
     },
     {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/45/d6/3d/45d63dd6b16e7a75d44144928069c58e.jpg",
-      "description": "Lancome Pure, Lancome Ad, Lancome Perfume Advertisement, Lancome Advertisement, Clinique Magazine Advert, 1936 Chanel Fragrance Ad, Lancome Rose Advertisement, Lancome Campaign, Lancome Perfume Ads",
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/e6/c0/1b/e6c01b449df8833e64e88e2351f6a3ac.jpg",
+      "description": "an advertisement for the luxury hotel and casino in buliverard, india with gold lettering",
       "source": "pinterest"
     },
     {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/31/42/14/314214d4c90cd0aa40efe095db44f83a.jpg",
-      "description": "Halloween Graphics, Mean Girls Halloween, Mean Girls Aesthetic, Mean Girls Burn Book, Girl Themes, Girl Posters, Pink Posters, Bullet Journal Ideas Pages, Graphic Design Fun",
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/d8/36/59/d8365932d40ae2a7dc26e46571df9ca8.jpg",
+      "description": "an advertisement for the sale of electronics",
+      "source": "pinterest"
+    },
+    {
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/93/7a/9d/937a9d2438ae134908a056919008ab34.jpg",
+      "description": "a person walking past a display in a grocery store",
+      "source": "pinterest"
+    },
+    {
+      "query": "mall.cz reklama",
+      "label": "Mall CZ",
+      "image_url": "https://i.pinimg.com/236x/16/53/68/165368c4f82690e712fec6399199f54b.jpg",
+      "description": "an advertisement for mavi's new perfume line, which is being advertised in the us",
       "source": "pinterest"
     },
     {
@@ -413,64 +420,8 @@
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/4f/7c/c5/4f7cc576cb6b2b1e708077553eafed1b.jpg",
-      "description": "two pictures of a man in a camera on the side of a yellow taxi cab",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/ec/20/10/ec20105c1021bed454e193aca6a06852.jpg",
-      "description": "a cup of coffee with steam coming out of it",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/dc/b3/4e/dcb34e2368be12102a1bfd6d5bf2135b.jpg",
-      "description": "Press Background, Aesthetic Communication, Collage Media, Investigative Aesthetic, Contemporary Issues, Communication Stickers, Introduction Image, Collage Marketing, Introduction Aesthetic",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/38/0d/98/380d984d9e7cda6924163c1be061ebe5.jpg",
-      "description": "a person sitting at a table with a laptop and a book in front of them",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/fa/0f/2c/fa0f2cb03b66d4dc858326767a712f0c.jpg",
-      "description": "I love my job, it’s the dream job that I never thought I wanted…but not everyday is perfect. I made a similar post like this one of some of the reasons why I don’t like being a graphic designer. And a",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/4d/6d/5d/4d6d5df3fceb32f3cd07a7e002101fcb.jpg",
-      "description": "an advertisement for the spanish language children's book",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/80/e4/af/80e4afead3da76a08692ffe5eda00db2.jpg",
-      "description": "a woman in white shirt and jeans with her arms crossed",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/1c/53/a7/1c53a724c517e42579ef0b94ec848650.jpg",
-      "description": "an obese woman standing on the beach with her hands in her pockets and holding a stick",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/3f/59/30/3f5930763723f721e70747100362b724.jpg",
-      "description": "an old ad for olio dante with children around the table eating and talking",
+      "image_url": "https://i.pinimg.com/236x/cc/8b/82/cc8b8213edf398fe9ef4a0c69d5491cf.jpg",
+      "description": "a hand holding a green cup through a hole in brown paper",
       "source": "pinterest"
     },
     {
@@ -483,8 +434,22 @@
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/db/cb/a6/dbcba6aeb84728b272a136c51dd3d4b5.jpg",
-      "description": "a person's hand holding a pink doorknob that says do not disturb",
+      "image_url": "https://i.pinimg.com/236x/ec/20/10/ec20105c1021bed454e193aca6a06852.jpg",
+      "description": "a cup of coffee with steam coming out of it",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/fa/0f/2c/fa0f2cb03b66d4dc858326767a712f0c.jpg",
+      "description": "I love my job, it’s the dream job that I never thought I wanted…but not everyday is perfect. I made a similar post like this one of some of the reasons why I don’t like being a graphic designer. And a",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/cc/39/5e/cc395e59836e6f748f97f48d04e9e9bf.jpg",
+      "description": "an advertisement for the children's products in spanish and english, with illustrations on it",
       "source": "pinterest"
     },
     {
@@ -497,43 +462,36 @@
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/a6/e7/f5/a6e7f5acf051334900cac4d64a6eeae6.jpg",
-      "description": "four different types of perfume bottles with the same price label on them, and one is labeled",
+      "image_url": "https://i.pinimg.com/236x/38/0d/98/380d984d9e7cda6924163c1be061ebe5.jpg",
+      "description": "a person sitting at a table with a laptop and a book in front of them",
       "source": "pinterest"
     },
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/95/dd/8d/95dd8d47aab6f8d172874e295ae101fc.jpg",
-      "description": "a person holding up a tube of toothpaste with the words perfect for only, combination and acne prone skin use this 1x day",
+      "image_url": "https://i.pinimg.com/236x/37/42/3e/37423eac9d474bef73adf336482ccb3e.jpg",
+      "description": "a small dog is being held by a person's hand with a red leash",
       "source": "pinterest"
     },
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/8e/ed/78/8eed7842185fdc5b22628da263697a86.jpg",
-      "description": "the advertisement for juice with raspberries and ice cream on it, is displayed in pink",
+      "image_url": "https://i.pinimg.com/236x/31/42/14/314214d4c90cd0aa40efe095db44f83a.jpg",
+      "description": "Halloween Graphics, Mean Girls Halloween, Mean Girls Aesthetic, Mean Girls Burn Book, Girl Themes, Girl Posters, Pink Posters, Bullet Journal Ideas Pages, Graphic Design Fun",
       "source": "pinterest"
     },
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/58/1f/3c/581f3c19bc2cebc4c464280790a565a9.jpg",
-      "description": "a wooden chair sitting on top of a white page with the word craft written in green",
+      "image_url": "https://i.pinimg.com/236x/4f/7c/c5/4f7cc576cb6b2b1e708077553eafed1b.jpg",
+      "description": "two pictures of a man in a camera on the side of a yellow taxi cab",
       "source": "pinterest"
     },
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/88/a7/c5/88a7c589c38bbf296a415108cd6cdac9.jpg",
-      "description": "Nando's Tactics Nandos Logo, Nandos Chicken Logo, Nandos Gift, Nandos Adverts, Cheeky Nandos Meme, Nandos Menu, Nandos Memes, Nandos Meme, Nandos Food Menu",
-      "source": "pinterest"
-    },
-    {
-      "query": "notino advertising",
-      "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/92/98/d4/9298d4bf161e22e7154a6f272ebc5d51.jpg",
-      "description": "an ad for brand out, with matches in the shape of a pencil and eraser",
+      "image_url": "https://i.pinimg.com/236x/45/d6/3d/45d63dd6b16e7a75d44144928069c58e.jpg",
+      "description": "Lancome Pure, Lancome Ad, Lancome Perfume Advertisement, Lancome Advertisement, Clinique Magazine Advert, 1936 Chanel Fragrance Ad, Lancome Rose Advertisement, Lancome Campaign, Lancome Perfume Ads",
       "source": "pinterest"
     },
     {
@@ -546,22 +504,85 @@
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/f6/3b/44/f63b440a44eacce2bc9168f23c26cfa1.jpg",
-      "description": "an advertisement for yogurt featuring a snowman on top of a banana",
+      "image_url": "https://i.pinimg.com/236x/92/98/d4/9298d4bf161e22e7154a6f272ebc5d51.jpg",
+      "description": "an ad for brand out, with matches in the shape of a pencil and eraser",
       "source": "pinterest"
     },
     {
       "query": "notino advertising",
       "label": "Notino CZ",
-      "image_url": "https://i.pinimg.com/236x/29/f0/3f/29f03f64603fbd2adeb6b7ff71c7deb7.jpg",
-      "description": "an advertisement for revito de alcanas nestle with various items in the background",
+      "image_url": "https://i.pinimg.com/236x/58/1f/3c/581f3c19bc2cebc4c464280790a565a9.jpg",
+      "description": "a wooden chair sitting on top of a white page with the word craft written in green",
       "source": "pinterest"
     },
     {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/03/24/4d/03244d3cd71b10d1c9f5d5e251198e64.jpg",
-      "description": "Elegant Floral Perfume Packaging, Blumarine Rosa Perfume Bottle With Roses, Gift Ideas For Her, Pink Rose Perfume Advertisement, Romantic Fragrance Inspiration, Pink Perfume Advertisement, Perfume Ad ",
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/dc/b3/4e/dcb34e2368be12102a1bfd6d5bf2135b.jpg",
+      "description": "Press Background, Aesthetic Communication, Collage Media, Investigative Aesthetic, Contemporary Issues, Communication Stickers, Introduction Image, Collage Marketing, Introduction Aesthetic",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/ea/76/31/ea76317b8fddc8058725dafe44326b4e.jpg",
+      "description": "Personal Care & Grooming (Skincare for Oily & Dry Skin): A good skincare routine keeps your skin clean, balanced, and healthy, no matter your skin type. Oily skin needs lightweight, non-greasy formula",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/a6/e7/f5/a6e7f5acf051334900cac4d64a6eeae6.jpg",
+      "description": "four different types of perfume bottles with the same price label on them, and one is labeled",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/8e/ed/78/8eed7842185fdc5b22628da263697a86.jpg",
+      "description": "the advertisement for juice with raspberries and ice cream on it, is displayed in pink",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/5b/a3/ad/5ba3addd51f2baf4ec7c6432d6c386bd.jpg",
+      "description": "a poster with the words find the idea on it and an overhead lamp above it",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/62/e9/94/62e9946b877ab2d23c1ce3350784bb00.jpg",
+      "description": "Say yes to Botox and keep that fresh look by saying yes to smooth, wrinkle-free skin. Filler Ads, Static Ads, Botox Marketing Slogans, Botox Ideas, Botox Marketing Ideas, Cute Botox Quotes, Botox Slog",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/93/27/16/932716dbca1206c75b21d7ae4bf78ea4.jpg",
+      "description": "an orange and two bananas on a pink background next to a lip balm bottle",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/ca/ad/45/caad45a6ab8ca15dbbe90a6a02e2fb0a.0000000.jpg",
+      "description": "This may contain: a man standing in front of a display of cell phones",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/de/7a/70/de7a704e64178c31d723ffc30c32c0ba.jpg",
+      "description": "four different images of people with their faces covered in masks and writing on the wall",
+      "source": "pinterest"
+    },
+    {
+      "query": "notino advertising",
+      "label": "Notino CZ",
+      "image_url": "https://i.pinimg.com/236x/e3/9c/26/e39c26fa3e98aaba0d6761bd40e0b9d9.jpg",
+      "description": "a woman holding a black box with popcorn in it's mouth and the words prada written on it",
       "source": "pinterest"
     },
     {
@@ -574,106 +595,22 @@
     {
       "query": "rossmann cosmetics ad",
       "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/ab/75/0c/ab750c25f39d99e1abad0779d837c453.jpg",
-      "description": "Emrata Red Hair, Emily Ratajkowski Skincare, Kerastase Hair Gloss, Emily Ratajkowski Hair Blonde, Kerastase Hair Styling Product, Kerastase Aesthetic, Emily Ratajkowski Hair Kerastase, Kerastase Campa",
+      "image_url": "https://i.pinimg.com/236x/38/96/e6/3896e6fc6f633d7fb9c39422b95adf62.jpg",
+      "description": "Balmain Loreal Lipstick Collection Launch, Balmain Loreal Lipstick Collection, L'oreal X Balmain Lipstick Swatches, Loreal Makeup Ads, L'oreal X Balmain Lipstick, Balmain Loreal Lipstick Collection Re",
       "source": "pinterest"
     },
     {
       "query": "rossmann cosmetics ad",
       "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/0b/f7/f8/0bf7f852a3ff63d5775210cefd31c281.jpg",
-      "description": "🌹🔥 Megérkezett a nyár legérzékibb illata! 🔥🌹 ",
+      "image_url": "https://i.pinimg.com/236x/78/ca/57/78ca571538e02dc1c804cf9432aacbd2.jpg",
+      "description": "Ads About Makeup, Lipstick Content Ideas, Lipstick Advertisement Poster, Lipstick Day, Ruby Lipstick Advertisement, Red Lipstick Advertisement Poster, Makeup Creative Ads, Salon Creative Ads, Lipstick",
       "source": "pinterest"
     },
     {
       "query": "rossmann cosmetics ad",
       "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/4e/ee/29/4eee290fee08b7d9d687d33bd277f612.jpg",
-      "description": "2010 Sweet Kiss Naturel Healthy Mix, Quartz Brands, Makeup Ads, Natural Lipstick, Rose Lipstick, Sweet Kisses, Brand Campaign, German Brands, Beauty Lover",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/61/b1/ae/61b1ae3e35a0b7b940ffbf8f58d4ebf3.jpg",
-      "description": "Serum Product Shoot, Hair Serum Product Photography, Hair Serum Photography, Hair Serum Photography Ideas, Serum Model Photography, Serum Hair, Shampoo Photography Model, Hair Diseases, Skin Care Comm",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/59/76/b3/5976b37c244791c36747b27c00e9b091.jpg",
-      "description": "10 tolle Rossmann-Produkte, die kaum einer kennt Concealer, Rossmann Cherry Shower Gel, Toothpaste, Personal Care, Makeup",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/2e/01/7c/2e017c8662267228776a0754e5be6ca2.jpg",
-      "description": "A Wallpaper Letter Love, Dm Drogerie, Hair Care Routine, Beauty Make Up, Glow Up?, Skincare Routine, Body Care, Shampoo Bottle, Bath And Body",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/b8/14/0a/b8140ab5b339814791c4a8504e4c03ee.jpg",
-      "description": "Ted Baker Perfume Set, Pure Fm, Precious Oriflame, Fm World Products List, Victoria's Secret Flowerbomb Perfume Set, Fm Pure Perfume, Fm World Perfumes Collection, Fm Royal Perfume, Fm World Perfume",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/7b/40/56/7b40565e9c7325a5eb42f60b031611b1.jpg",
-      "description": "兰薇欧化妆品 on Behance Cosmetics Advertising Design, Cosmetic Advertising Design, Cosmetic Design Poster, Bubble Cosmetic, 3d Cosmetic Design, Colorful Cosmetic Set Design, Perfume Product Rendering, 3d Co",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/08/fd/c4/08fdc4c0920a182aa1a866f4e37763c6.jpg",
-      "description": "Natalia pour Guerlain Maquillage Best Beauty Ads, Guerlain Beauty Slogan Art, Guerlain Luxury Brand, Guerlain Cosmetics, Guerlain Spring Makeup, Guerlain Perfume Commercial, Guerlain Skin Care, Guerla",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/4a/b9/97/4ab9976c3b29b146ae0eca036ef2718c.jpg",
-      "description": "Posing With Product, Product Model Photoshoot, Model With Product, Model Holding Product, Korean Skincare Photography, Hair Diseases, Skincare Product Photography With Model, Skin Care Commercial Phot",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/9d/18/ac/9d18ac4b54b2b1fdf99ea41705853ebe.jpg",
-      "description": "#beauty #werbung Beauty",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/b2/91/c5/b291c5b0247730afa4893d68a352ef6b.jpg",
-      "description": "rimmel - kate moss Rimmel London Provocalips Lip Color, Vogue Lipstick Advertisement, Rimmel Kate Moss, Ysl Beauty Ad, Chanel Lipstick Advertisement, Rimmel London Lip, Rimmel London Lippy's, Rimmel K",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/24/d4/b9/24d4b923599ffaaf1bc2c5eb4fc4dff1.jpg",
-      "description": "Augenringe, Tränensäcke oder Augenfältchen? 👀 Mit unseren Augenpflegen lässt du solche Probleme hinter dir!  Und das Beste: Wenn du dir unsicher bist, welche Pflege deine Haut benötigt, kann dir unser",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/38/89/c8/3889c86b5aadedc2f7ebdc6ba878f814.jpg",
-      "description": "a woman with her hands on her face",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/e2/3e/b5/e23eb5529b21b45c28553acfd8ce2a6a.jpg",
-      "description": "Commercial Photography, Ads Creative, Ad Campaign, Wide Angle, Beauty Brand, Paraben Free Products, Fashion Photography, Serum, Photography",
+      "image_url": "https://i.pinimg.com/236x/93/53/8e/93538ec61fb8b4b676230b4b264dc26c.jpg",
+      "description": "Yves Rocher 1980, Vintage Yves Rocher Perfume Bottles, Vintage Miniature Perfume Yves Rocher, Vintage Yves Rocher Perfumes, Yves Rocher Perfume 1990s, Evidence Perfume Yves Rocher, Vintage Yves Rocher",
       "source": "pinterest"
     },
     {
@@ -686,15 +623,148 @@
     {
       "query": "rossmann cosmetics ad",
       "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/b7/30/f1/b730f1c1d74c654ced409a6c1ab4f79a.jpg",
-      "description": "Layering Guide | Nø Cosmetic Skincare Day And Night Routine, Noy Skincare, How To Choose Skincare For Day And Night, Nighttime Skincare And Beauty Routine, Niod Skincare Routine, Day And Night Skincar",
+      "image_url": "https://i.pinimg.com/236x/0b/f7/f8/0bf7f852a3ff63d5775210cefd31c281.jpg",
+      "description": "🌹🔥 Megérkezett a nyár legérzékibb illata! 🔥🌹 ",
       "source": "pinterest"
     },
     {
       "query": "rossmann cosmetics ad",
       "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/34/5a/39/345a3947d924cfd58d3442872933e48e.jpg",
-      "description": "O sérum fortificante antiquebra da Yves Rocher vai fortificar a fibra capilar reduzindo a sua quebra... Adoro!!! #YvesRocher #Champô #Shampoo #NaturalShampoo #Champu #Shampooing #Sampuan #Cabelo #Cabe",
+      "image_url": "https://i.pinimg.com/236x/24/d4/b9/24d4b923599ffaaf1bc2c5eb4fc4dff1.jpg",
+      "description": "Augenringe, Tränensäcke oder Augenfältchen? 👀 Mit unseren Augenpflegen lässt du solche Probleme hinter dir!  Und das Beste: Wenn du dir unsicher bist, welche Pflege deine Haut benötigt, kann dir unser",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/c3/c6/50/c3c6506f1dd94dada42071d2ef8ff053.jpg",
+      "description": "Dm Skincare Routine, Dm Skincare, Skin Care Routine For 11-12, Skin Care Routine For 13-14, Skin Care Routine 11-12, Self-care Routine For Christmas, Skincare Routine For 10-15, Skincare Routine For 1",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/ab/75/0c/ab750c25f39d99e1abad0779d837c453.jpg",
+      "description": "Emrata Red Hair, Emily Ratajkowski Skincare, Kerastase Hair Gloss, Emily Ratajkowski Hair Blonde, Kerastase Hair Styling Product, Kerastase Aesthetic, Emily Ratajkowski Hair Kerastase, Kerastase Campa",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/7b/40/56/7b40565e9c7325a5eb42f60b031611b1.jpg",
+      "description": "兰薇欧化妆品 on Behance Cosmetics Advertising Design, Cosmetic Advertising Design, Cosmetic Design Poster, Bubble Cosmetic, 3d Cosmetic Design, Colorful Cosmetic Set Design, Perfume Product Rendering, 3d Co",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/5e/c4/f6/5ec4f67822bb303e9292985ab409e50d.jpg",
+      "description": "an advertisement with cosmetics and makeup products on the side, including lipstick, eyeliners,",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/6b/e0/e1/6be0e17626bcc85898a9e7e54b3af7ba.jpg",
+      "description": "Pink Perfume Photography, Pink Chanel Perfume Design, Chanel Perfume Bottle On Floral Background, Chanel Perfume Photography, Rose Perfume Photography, Pink Perfume Advertisement, Pink Floral Chanel P",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/1b/de/61/1bde611d892a3d16873f0ddc9ea7c230.jpg",
+      "description": "Beauty Standards Magazine, Smooth Girl Magazine, Seventeen Magazine 90s Makeup, Skin Care Magazine Cover, Beauty Tips Magazine, Sephora Magazine Ad, Ulta Magazine, Magazine Page With Beauty Tips, 1994",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/59/76/b3/5976b37c244791c36747b27c00e9b091.jpg",
+      "description": "10 tolle Rossmann-Produkte, die kaum einer kennt Concealer, Rossmann Cherry Shower Gel, Toothpaste, Personal Care, Makeup",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/38/89/c8/3889c86b5aadedc2f7ebdc6ba878f814.jpg",
+      "description": "a woman with her hands on her face",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/2e/01/7c/2e017c8662267228776a0754e5be6ca2.jpg",
+      "description": "A Wallpaper Letter Love, Dm Drogerie, Hair Care Routine, Beauty Make Up, Glow Up?, Skincare Routine, Body Care, Shampoo Bottle, Bath And Body",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/4e/ee/29/4eee290fee08b7d9d687d33bd277f612.jpg",
+      "description": "2010 Sweet Kiss Naturel Healthy Mix, Quartz Brands, Makeup Ads, Natural Lipstick, Rose Lipstick, Sweet Kisses, Brand Campaign, German Brands, Beauty Lover",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/4a/b9/97/4ab9976c3b29b146ae0eca036ef2718c.jpg",
+      "description": "Posing With Product, Product Model Photoshoot, Model With Product, Model Holding Product, Korean Skincare Photography, Hair Diseases, Skincare Product Photography With Model, Skin Care Commercial Phot",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/3e/f1/69/3ef169ca4e7cd1d969909d82d95b7390.jpg",
+      "description": "#натуральная #косметика #предметныйфотограф #productphotography #productphotographer #съемкакосметики #коммерческаяфотография #эстетика #контентсъемка #lipstick #lipbalm #помада #весна #spring #inspir",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/0f/23/0e/0f230ef2b5827956c53325bc7698797d.jpg",
+      "description": "Maybelline Color Elixir, Dior Lip Glow Balm Advertisement, Best Makeup Ads, Vogue Lipstick Advertisement, Maybelline Advertisement, Maybelline Advert, Maybelline Tagline, Maybelline Makeup Ads, Maybel",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/3c/a8/70/3ca870cf45a24c74d6f4807abd6215b4.jpg",
+      "description": "Dior Makeup Ads, Loreal Makeup Ads, Chanel Makeup Advertisement, L'oreal Makeup Advertisement, Ysl Beauty Ad, Loreal Advertising, Loreal Ads, Loreal Poster Design, Mascara Advertisement",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/e2/3e/b5/e23eb5529b21b45c28553acfd8ce2a6a.jpg",
+      "description": "Commercial Photography, Ads Creative, Ad Campaign, Wide Angle, Beauty Brand, Paraben Free Products, Fashion Photography, Serum, Photography",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/8c/27/0c/8c270cee9359a80f5568e943e6f47be2.jpg",
+      "description": "Cosmetic Bottle On Pink Background, Pink Background Beauty Ad, Perfume Banner Design, Cosmetic Product Advertisement Poster, Perfume Banner, Cosmetics Banner With Perfume Bottle, Sakura Perfume Ads, C",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/7e/25/e6/7e25e6436990934f00b229cc415bb72c.jpg",
+      "description": "BELLEZA NATURAL: ESSENCE \"BLOSSOM DREAMS\", TREND EDITION Vibrant Nature's Essence, Essence Advent Calendar 2022, Visconti Opera Master Essence Limited Edition, Essence Charming Lipstick, Farsali Unico",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/e0/fc/a8/e0fca8ab1d58ab782afe66a8e9cee171.jpg",
+      "description": "an open magazine with pink roses and perfume bottles",
+      "source": "pinterest"
+    },
+    {
+      "query": "rossmann cosmetics ad",
+      "label": "Rossmann",
+      "image_url": "https://i.pinimg.com/236x/56/52/f9/5652f93e7e01389ad43104bae9c147f9.jpg",
+      "description": "Loreal Ad, Estee Lauder Lipstick Ads, Estee Lauder Beautiful Ad, Loreal Makeup Ads, L'oreal Makeup Advertisement, Loreal Advertising, Loreal Ads, Loreal Adverts, Loreal Poster Design",
       "source": "pinterest"
     },
     {
@@ -702,34 +772,6 @@
       "label": "Rossmann",
       "image_url": "https://i.pinimg.com/236x/05/36/b0/0536b0ee0f7eac0f95e3f84b65710850.jpg",
       "description": "soaps are stacked on top of each other with bubbles in the air behind them",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/9e/20/3c/9e203cc4285baacd6771985a682d3e6f.jpg",
-      "description": "Amber Perfume, Amber Perfume Bottle, Amber Glass Perfume Design, Amber Dream Perfume Bottle, Gold And Amber Perfume Design, Amber Fusion Perfume Bottle, Elegant Amber Perfume Bottle, Amber Haze Perfum",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/ca/69/58/ca6958f00c391a7f4667f38a442f56e4.jpg",
-      "description": "Mache jetzt den Test und finde es heraus! Ein Serum ist die ideale Grundlage für eine Creme oder ein Gesichtsöl. Superfoods, Retinol, Serum",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/f0/74/36/f074362fe469d5e487b210102b9296c0.jpg",
-      "description": "Gesichtsmassagen sind der Schlüssel für eine bessere Durchblutung in der kalten Jahreszeit. 🌬️✨ Beginne mit einer gründlichen Reinigung und arbeite dann mit sanften, nach außen gerichteten Bewegungen,",
-      "source": "pinterest"
-    },
-    {
-      "query": "rossmann cosmetics ad",
-      "label": "Rossmann",
-      "image_url": "https://i.pinimg.com/236x/4e/b9/a4/4eb9a47f6ad9a4f390ff871f4d5dbb0a.jpg",
-      "description": "a woman in a towel sitting next to some products on a purple background with the words, choose glow it's new month",
       "source": "pinterest"
     },
     {
@@ -742,13 +784,6 @@
     {
       "query": "online advertising examples",
       "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/d1/fd/ee/d1fdee59eea843b593a249598135dd04.jpg",
-      "description": "a book cover with the words, account manager middle - time on - site and an image of a man sitting in a cloud",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
       "image_url": "https://i.pinimg.com/236x/00/d0/1f/00d01f36f96a47fb1f1c51d04ed680c5.jpg",
       "description": "a black and white photo with the words our services take what you need on it",
       "source": "pinterest"
@@ -756,36 +791,8 @@
     {
       "query": "online advertising examples",
       "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/12/44/41/124441178c01c81d0efb41dc8d07806a.jpg",
-      "description": "a penguin is standing in the snow with a bottle of mouthwash on it's back",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/f9/6b/d5/f96bd5894374c07f221eedc9aa9f323b.jpg",
-      "description": "the cover of marketing campaign that went virtual and why they were awesome",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/2f/9d/61/2f9d6120a8fa784f1adbb3f034a54dae.jpg",
-      "description": "someone is holding up their cell phone to show the food they are eating on it",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/72/84/6f/72846f8fac79256b378f47599398d735.0000000.jpg",
-      "description": "This may contain: the words looking are yellow and black",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/ad/8a/82/ad8a8201445281b0867e2ef8b323d2a3.jpg",
-      "description": "an instagram ad with a hamburger and fries on the screen, as well as text that reads grow your instagram reach",
+      "image_url": "https://i.pinimg.com/236x/61/8c/0d/618c0d5175dd29caf86af80f18f2bb32.jpg",
+      "description": "an advertisement for vitamin products is shown in three different colors and font styles, including the words",
       "source": "pinterest"
     },
     {
@@ -798,36 +805,15 @@
     {
       "query": "online advertising examples",
       "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/98/f3/4c/98f34c69cf092b140a72034249929c78.jpg",
-      "description": "how to optimize your meta ads for better results infographical advertism",
+      "image_url": "https://i.pinimg.com/236x/ad/8a/82/ad8a8201445281b0867e2ef8b323d2a3.jpg",
+      "description": "an instagram ad with a hamburger and fries on the screen, as well as text that reads grow your instagram reach",
       "source": "pinterest"
     },
     {
       "query": "online advertising examples",
       "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/59/ac/81/59ac81ec1034e09c1ad9b2b49b4629f9.jpg",
-      "description": "an info sheet with different types of text and pictures on the bottom right hand corner",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/b8/d4/69/b8d4698e5a469f031be02b30c704ca99.jpg",
-      "description": "the facebook page for food and drink is displayed on an iphone screen, with a photo of",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/b4/e6/77/b4e677e15f70efcdd1ca85c1de1163f3.jpg",
-      "description": "an advertisement with the words don't make these 16 google ads",
-      "source": "pinterest"
-    },
-    {
-      "query": "online advertising examples",
-      "label": "Online Ads EN",
-      "image_url": "https://i.pinimg.com/236x/a9/27/8f/a9278ff42ac18a44b7112823d23a4de6.jpg",
-      "description": "a blue and white poster with the words 5 really good reasons to use twitter ads",
+      "image_url": "https://i.pinimg.com/236x/2f/9d/61/2f9d6120a8fa784f1adbb3f034a54dae.jpg",
+      "description": "someone is holding up their cell phone to show the food they are eating on it",
       "source": "pinterest"
     },
     {
@@ -847,8 +833,57 @@
     {
       "query": "online advertising examples",
       "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/b8/d4/69/b8d4698e5a469f031be02b30c704ca99.jpg",
+      "description": "the facebook page for food and drink is displayed on an iphone screen, with a photo of",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
       "image_url": "https://i.pinimg.com/236x/d1/c1/d1/d1c1d16f01848b6cc8bcbe66a79179f3.jpg",
       "description": "the instagram page on instagram com features an image of a person riding a red bike",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/59/ac/81/59ac81ec1034e09c1ad9b2b49b4629f9.jpg",
+      "description": "an info sheet with different types of text and pictures on the bottom right hand corner",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/a9/27/8f/a9278ff42ac18a44b7112823d23a4de6.jpg",
+      "description": "a blue and white poster with the words 5 really good reasons to use twitter ads",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/98/f3/4c/98f34c69cf092b140a72034249929c78.jpg",
+      "description": "how to optimize your meta ads for better results infographical advertism",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/f4/c7/8d/f4c78df793e27da02d1e22943562f782.0000000.jpg",
+      "description": "This may contain: a blue bowl filled with blueberries sitting on top of a green table",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/f9/6b/d5/f96bd5894374c07f221eedc9aa9f323b.jpg",
+      "description": "the cover of marketing campaign that went virtual and why they were awesome",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/b4/e6/77/b4e677e15f70efcdd1ca85c1de1163f3.jpg",
+      "description": "an advertisement with the words don't make these 16 google ads",
       "source": "pinterest"
     },
     {
@@ -875,6 +910,13 @@
     {
       "query": "online advertising examples",
       "label": "Online Ads EN",
+      "image_url": "https://i.pinimg.com/236x/60/09/85/6009855b40969cdbb4bc9db7952ff0bd.jpg",
+      "description": "someone is typing on their laptop with the words facebook ads campaign above it and an image of a person holding a coffee mug",
+      "source": "pinterest"
+    },
+    {
+      "query": "online advertising examples",
+      "label": "Online Ads EN",
       "image_url": "https://i.pinimg.com/videos/thumbnails/originals/62/d4/8a/62d48a569680decb8f6b5e4a37991a48.0000000.jpg",
       "description": "This may contain: someone is holding their cell phone and touching the screen",
       "source": "pinterest"
@@ -882,22 +924,15 @@
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/5e/ac/65/5eac65c5c601fc388db3ed0835671739.jpg",
-      "description": "an advertisement for the social media platform, featuring facebook and instagrams on purple background",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/69/14/7b/69147bb0842e30361e4fa2bfb5ddd849.0000000.jpg",
+      "description": "Designed on canva by @canvas5110. Full tutorial is available, check out the link below.👇🏻👇🏻👇🏻",
       "source": "pinterest"
     },
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/61/a6/a3/61a6a3bcd42257adc3c35c393deadfbe.jpg",
-      "description": "an orange rocket with the words, let's build brands that last",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/24/ae/02/24ae02b2899455ccc962ca2f776126c4.jpg",
-      "description": "someone is looking through a hole in the paper with their hands on it and holding binoculars",
+      "image_url": "https://i.pinimg.com/236x/41/28/87/412887b201c9fa3cd0dec1296ba9b4c2.jpg",
+      "description": "an advertisement for the company, featuring purple glass arrows and white text that reads performance marketing accelerate your roi",
       "source": "pinterest"
     },
     {
@@ -910,27 +945,6 @@
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/85/6b/91/856b9162d7110ff7ee47b40e71875d92.jpg",
-      "description": "someone is holding their cell phone in front of the screen with an ad on it",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/e8/df/a1/e8dfa19929eb5c6f7237b5df4471badd.0000000.jpg",
-      "description": "This contains: Aesthetic animation video featuring a warm, cozy café setting with animated coffee visuals, perfect for café marketing or beverage ad inspiration.",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/7e/ec/e0/7eece0ad8d6b332c277c7a60579a43a9.0000000.jpg",
-      "description": "This may contain: a red background with the words move your humb to the beat on it's side",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
       "image_url": "https://i.pinimg.com/236x/14/a1/c6/14a1c66365b42e5f72bdc0c2770898d5.jpg",
       "description": "the front cover of a book with chess pieces on it and text that reads don't just existt be unmissable",
       "source": "pinterest"
@@ -938,8 +952,64 @@
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/76/5a/5c/765a5cd8bc61ac6917cb1a67e900535c.jpg",
-      "description": "a poster with the words bad ads? you are just making zuckerberg richer",
+      "image_url": "https://i.pinimg.com/236x/37/e2/09/37e209611ba4b52dedd3cc2852be75fb.jpg",
+      "description": "the shadow of a person's hand on top of a paper with text that reads, new product launching soon stay tuned",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/99/a9/4e/99a94e0fb625159492652102a03d9792.jpg",
+      "description": "Maximize your ad performance and reach the right audience with smart optimization strategies. Learn how to boost engagement, reduce costs, and achieve better ROI on your Meta campaigns. Start improvin",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/85/6b/91/856b9162d7110ff7ee47b40e71875d92.jpg",
+      "description": "someone is holding their cell phone in front of the screen with an ad on it",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/67/2a/e9/672ae93525428dfb335c302a26a81ca8.jpg",
+      "description": "an email message with the caption coming soon on it's screen and in the background there is a blurry eye",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/bb/1c/cd/bb1ccdc6ef60e4e57aab37d1f96ab178.jpg",
+      "description": "we know how to make your brand different in the crowd for more information, please",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/61/a6/a3/61a6a3bcd42257adc3c35c393deadfbe.jpg",
+      "description": "an orange rocket with the words, let's build brands that last",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/3c/28/83/3c28838cf5b1c35bdf540d98b7b42de7.jpg",
+      "description": "a poster with an hourglass in the middle and a laptop on top that reads still waiting for the right time?",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/24/ae/02/24ae02b2899455ccc962ca2f776126c4.jpg",
+      "description": "someone is looking through a hole in the paper with their hands on it and holding binoculars",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/7e/ec/e0/7eece0ad8d6b332c277c7a60579a43a9.0000000.jpg",
+      "description": "This may contain: a red background with the words move your humb to the beat on it's side",
       "source": "pinterest"
     },
     {
@@ -959,43 +1029,8 @@
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/67/2a/e9/672ae93525428dfb335c302a26a81ca8.jpg",
-      "description": "an email message with the caption coming soon on it's screen and in the background there is a blurry eye",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/d6/10/b0/d610b0e83aeda2a1373a2bd4407389a9.jpg",
-      "description": "a bottle of sleep next to pillows on a blue surface with the caption, tomorrow starts tonight",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/b0/19/a5/b019a50e845c90e3abfee2431a6769a5.0000000.jpg",
-      "description": "This contains: You will NEVER Grow Your Business Until You Understand This!",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/1f/29/11/1f2911d695282f42044eb933db75c506.jpg",
-      "description": "#SUPPERMEDIA #SEO #DIGITALMARKETING #NSW #ADS #CONTENTCREATION Quote For Marketing, Content Poster, Clever Marketing, Fun Social Media Posts, Online Course Marketing Ideas, Course Ads, Branding Ads, Q",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/97/40/27/9740276e2e4654127936120d11ef1334.jpg",
-      "description": "a man holding a smart phone in front of an advert for google's website",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/3d/57/3f/3d573fc23024977f83b4b957a036f41f.jpg",
-      "description": "an advertisement for techwirt, with the words you can trust us on it",
+      "image_url": "https://i.pinimg.com/236x/2d/ba/21/2dba215049d46b20cb795830a6307ba8.jpg",
+      "description": "a yellow hat with the words struggling to get your brand noticed? we've got the solution",
       "source": "pinterest"
     },
     {
@@ -1008,15 +1043,22 @@
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/3b/dc/6f/3bdc6f434d874b2da4fb5fd5c0eb128b.jpg",
-      "description": "a green poster with the words marketing without humor is like pizza without cheese ew",
+      "image_url": "https://i.pinimg.com/236x/aa/5c/99/aa5c99060c3d1953e866e1bdfe8b6745.jpg",
+      "description": "a cat sitting in front of a white wall",
       "source": "pinterest"
     },
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/08/06/dc/0806dc5b71978848bb1c35b2d452af23.jpg",
-      "description": "a woman walking while holding a cell phone in her hand with the caption here's why you need us",
+      "image_url": "https://i.pinimg.com/236x/76/5a/5c/765a5cd8bc61ac6917cb1a67e900535c.jpg",
+      "description": "a poster with the words bad ads? you are just making zuckerberg richer",
+      "source": "pinterest"
+    },
+    {
+      "query": "digital marketing ads",
+      "label": "Digital Marketing EN",
+      "image_url": "https://i.pinimg.com/236x/3d/57/3f/3d573fc23024977f83b4b957a036f41f.jpg",
+      "description": "an advertisement for techwirt, with the words you can trust us on it",
       "source": "pinterest"
     },
     {
@@ -1029,43 +1071,36 @@
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/fb/1d/50/fb1d50fc7265c250ef9ba6c23ba02d50.0000000.jpg",
-      "description": "This may contain: a cartoon mouse with the words traditional marketing and digital marketing on it's side",
+      "image_url": "https://i.pinimg.com/236x/08/06/dc/0806dc5b71978848bb1c35b2d452af23.jpg",
+      "description": "a woman walking while holding a cell phone in her hand with the caption here's why you need us",
       "source": "pinterest"
     },
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/2d/ba/21/2dba215049d46b20cb795830a6307ba8.jpg",
-      "description": "a yellow hat with the words struggling to get your brand noticed? we've got the solution",
+      "image_url": "https://i.pinimg.com/236x/5e/ac/65/5eac65c5c601fc388db3ed0835671739.jpg",
+      "description": "an advertisement for the social media platform, featuring facebook and instagrams on purple background",
       "source": "pinterest"
     },
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/8d/6b/53/8d6b53d73d76c2fc5d2bec035e34f1a1.jpg",
-      "description": "an advertisement for a cell phone with the message,'a life full of energy is calling",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/e8/df/a1/e8dfa19929eb5c6f7237b5df4471badd.0000000.jpg",
+      "description": "This contains: Aesthetic animation video featuring a warm, cozy café setting with animated coffee visuals, perfect for café marketing or beverage ad inspiration.",
       "source": "pinterest"
     },
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/aa/5c/99/aa5c99060c3d1953e866e1bdfe8b6745.jpg",
-      "description": "a cat sitting in front of a white wall",
+      "image_url": "https://i.pinimg.com/236x/0a/e3/cf/0ae3cf6704f6472afc42d40fc860487b.jpg",
+      "description": "a red man is walking in front of a group of black people with the words break the pattern, make your mark",
       "source": "pinterest"
     },
     {
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/13/16/ed/1316ed483685d25537497b1c0bdd7d2b.jpg",
-      "description": "an image of a cartoon character that is asking if he'd ask for limited designs too",
-      "source": "pinterest"
-    },
-    {
-      "query": "digital marketing ads",
-      "label": "Digital Marketing EN",
-      "image_url": "https://i.pinimg.com/236x/a2/09/4d/a2094d10deedfb6be1626d69f2daf395.jpg",
-      "description": "a magnifying glass with the words branding vs marketing below it and an arrow pointing up",
+      "image_url": "https://i.pinimg.com/videos/thumbnails/originals/dc/09/3e/dc093e055bffdd86132d0fa829d88f3f.0000000.jpg",
+      "description": "This contains: Video of social media marketing",
       "source": "pinterest"
     }
   ]

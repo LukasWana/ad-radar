@@ -20,14 +20,20 @@
     },
     "youtube_works_awards": {
       "enabled": true,
-      "playlist_id": "PLzCg1lz81rBeNdKxFlS6fNQnP4rX4MNq-",
+      "playlist_id": "UU2EVergrsTcwpZbAeboHSQQ",
       "priority": 4,
       "category": "video"
+    },
+    "muzli": {
+      "enabled": true,
+      "url": "https://muz.li/inspiration/banner-examples/",
+      "priority": 5,
+      "category": "creative"
     },
     "mediacz": {
       "enabled": true,
       "url": "https://www.mediar.cz/galerie-reklamy/",
-      "priority": 5,
+      "priority": 6,
       "category": "print"
     }
   },

@@ -33,7 +33,7 @@ PINTEREST_CONFIG = SKILL_DIR / "pinterest_config.json"
 PINTEREST_JSON = SKILL_DIR / "pinterest_ads.json"
 
 YOUTUBE_API_KEY = "AIzaSyB0W1rRyYwI0oyC80TotvWQwnr5LyK6wOg"
-PLAYLIST_ID = "PLzCg1lz81rBeNdKxFlS6fNQnP4rX4MNq-"
+PLAYLIST_ID = "UU2EVergrsTcwpZbAeboHSQQ"
 
 
 def get_db():
@@ -214,6 +214,50 @@ def scrape_adsoftheworld(db):
         print(f"  adsoftheworld error: {e}")
 
 
+def scrape_muzli(db):
+    """muz.li banner examples → DB"""
+    print("\n[3.5/5] muz.li...")
+    
+    try:
+        from scraper_manager import scrape as sm_scrape
+        
+        result = sm_scrape("https://muz.li/inspiration/banner-examples/")
+        if not result or not result.get('success'):
+            print("  Failed:", result)
+            return
+        
+        soup = BeautifulSoup(result['data'], 'html.parser')
+        articles = soup.select('article')
+        
+        count = 0
+        for article in articles[:20]:
+            img = article.find('img')
+            if not img:
+                continue
+            
+            image_url = img.get('src', '') or img.get('data-src', '')
+            title = img.get('alt', '') or 'Banner example'
+            
+            if not image_url or len(image_url) < 20:
+                continue
+            
+            # Brand z title (prvni slovo)
+            brand = title.split()[0] if title else 'muz.li'
+            
+            # URL - muz.li nema detail page, pouzij homepage
+            url = 'https://muz.li/inspiration/banner-examples/'
+            
+            existing = db.execute("SELECT id FROM campaigns WHERE url = ? AND source = ?", (url, 'muz.li')).fetchone()
+            if not existing:
+                insert_campaign(db, url, title, brand, '', 'muz.li', score=5, image_url=image_url)
+                count += 1
+        
+        print(f"  muz.li: {count} nových")
+        
+    except Exception as e:
+        print(f"  muz.li error: {e}")
+
+
 def get_top_ads(db, limit=10, dedup_days=30):
     """Získá top 10 reklam z DB bez opakování"""
     cutoff_iso = (datetime.now() - timedelta(days=dedup_days)).isoformat()
@@ -385,6 +429,9 @@ def run():
     
     # 3. adsoftheworld
     scrape_adsoftheworld(db)
+    
+    # 3.5. muz.li
+    scrape_muzli(db)
     
     # 4. Získej TOP 10 z DB + Pinterest
     top_ads = get_top_ads(db, limit=10)
