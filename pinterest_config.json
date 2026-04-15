@@ -29,6 +29,41 @@
       "query": "digital marketing ads",
       "label": "Digital Marketing EN",
       "language": "EN"
+    },
+    {
+      "query": "ecomail email marketing",
+      "label": "Ecomail CZ",
+      "language": "CZ"
+    },
+    {
+      "query": "SmartEmailing",
+      "label": "SmartEmailing CZ",
+      "language": "CZ"
+    },
+    {
+      "query": "Brevo email marketing",
+      "label": "Brevo",
+      "language": "EN"
+    },
+    {
+      "query": "MailerLite email newsletter",
+      "label": "MailerLite",
+      "language": "EN"
+    },
+    {
+      "query": "Mailchimp email campaign",
+      "label": "Mailchimp",
+      "language": "EN"
+    },
+    {
+      "query": "Beehiiv newsletter",
+      "label": "Beehiiv",
+      "language": "EN"
+    },
+    {
+      "query": "email marketing design newsletter",
+      "label": "Email Marketing Design",
+      "language": "EN"
     }
   ],
   "scroll_count": 8,

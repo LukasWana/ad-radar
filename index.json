@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-15",
+  "updated_at": "2026-04-15T01:38:04.352904",
+  "banners": [
+    {
+      "id": 1,
+      "title": "This may contain: an image of a billboard on the s",
+      "brand": "Pinterest",
+      "source": "Pinterest",
+      "imageUrl": "https://i.pinimg.com/videos/thumbnails/originals/48/6b/76/486b76332fda126497962356fa8dc09b.0000000.jpg",
+      "dimensions": "800x450",
+      "format": "banner"
+    },
+    {
+      "id": 2,
+      "title": "Business Meeting",
+      "brand": "Unsplash",
+      "source": "Unsplash",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+      "dimensions": "800x450",
+      "format": "banner"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Strategy",
+      "brand": "Unsplash",
+      "source": "Unsplash",
+      "imageUrl": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80",
+      "dimensions": "800x450",
+      "format": "banner"
+    },
+    {
+      "id": 4,
+      "title": "Digital Analytics",
+      "brand": "Unsplash",
+      "source": "Unsplash",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "dimensions": "800x450",
+      "format": "banner"
+    }
+  ]
+}

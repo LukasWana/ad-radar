@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD Finder — posilani reklamnich emailu</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #0a0a0f;
+            --card-bg: #141419;
+            --card-hover: #1a1a22;
+            --border: #252530;
+            --text: #e8e8ec;
+            --text-dim: #888894;
+            --accent: #f59e0b;
+            --link: #3b82f6;
+            --video: #ef4444;
+            --banner: #22c55e;
+            --ooh: #a855f7;
+            --print: #06b6d4;
+            --social: #ec4899;
+        }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .container { max-width: 1600px; margin: 0 auto; padding: 24px; }
+        header { text-align: center; padding: 40px 20px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+        h1 { font-size: 2.2em; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+        .search-form { margin: 20px 0; }
+        .search-form input { 
+            font-size: 1.1em; padding: 12px 20px; width: 300px; 
+            background: var(--card-bg); border: 1px solid var(--border); 
+            color: var(--text); border-radius: 8px;
+        }
+        .search-form button {
+            font-size: 1em; padding: 12px 24px; 
+            background: var(--accent); border: none; 
+            color: #000; border-radius: 8px; cursor: pointer; margin-left: 8px;
+        }
+        .meta { color: var(--text-dim); font-size: 0.95em; }
+        .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+        .result-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: all 0.2s; }
+        .result-card:hover { transform: translateY(-4px); border-color: var(--accent); }
+        .card-img { height: 200px; overflow: hidden; background: #1a1a22; }
+        .card-img img { width: 100%; height: 100%; object-fit: cover; }
+        .no-img { height: 100%; display: flex; align-items: center; justify-content: center; color: var(--text-dim); }
+        .card-body { padding: 16px; }
+        .card-meta { display: flex; gap: 8px; margin-bottom: 10px; }
+        .source { font-size: 0.7em; color: var(--link); text-transform: uppercase; font-weight: 500; }
+        .format-badge { font-size: 0.65em; padding: 2px 8px; border-radius: 12px; font-weight: 500; }
+        .format-badge.video { background: rgba(239,68,68,0.2); color: var(--video); }
+        .format-badge.banner { background: rgba(34,197,94,0.2); color: var(--banner); }
+        .format-badge.ooh { background: rgba(168,85,247,0.2); color: var(--ooh); }
+        .format-badge.print { background: rgba(6,182,212,0.2); color: var(--print); }
+        .format-badge.social { background: rgba(236,72,153,0.2); color: var(--social); }
+        .card-title { font-size: 1em; font-weight: 600; margin-bottom: 6px; line-height: 1.3; }
+        .card-brand { font-size: 0.85em; color: var(--accent); margin-bottom: 8px; }
+        .card-desc { font-size: 0.8em; color: var(--text-dim); margin-bottom: 12px; }
+        .card-link { display: inline-block; font-size: 0.8em; color: var(--link); text-decoration: none; padding: 6px 12px; background: rgba(59,130,246,0.1); border-radius: 6px; }
+        .card-link:hover { background: var(--link); color: white; }
+        .no-results { text-align: center; color: var(--text-dim); padding: 60px; font-size: 1.2em; }
+        .footer { text-align: center; padding: 40px; color: #555; font-size: 0.85em; border-top: 1px solid var(--border); margin-top: 40px; }
+        .filters { display: flex; gap: 8px; margin: 20px 0; flex-wrap: wrap; justify-content: center; }
+        .filter-btn { padding: 8px 16px; background: var(--card-bg); border: 1px solid var(--border); color: var(--text-dim); border-radius: 20px; cursor: pointer; font-size: 0.85em; }
+        .filter-btn:hover, .filter-btn.active { border-color: var(--accent); color: var(--accent); }
+        @media (max-width: 768px) { .container { padding: 16px; } h1 { font-size: 1.6em; } .search-form input { width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 AD Finder</h1>
+            <p class="meta">Thematické vyhledávání reklamní inspirace</p>
+            <form class="search-form" action="/discover/discover_ads.py" method="GET">
+                <input type="text" name="q" value="posilani reklamnich emailu" placeholder="např. sportovní boty, letní kosmetika...">
+                <button type="submit">Hledat</button>
+            </form>
+            <p class="meta">Nalezeno: 29 výsledků • 2026-04-12 17:39</p>
+        </header>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-format="all">Vše</button>
+            <button class="filter-btn" data-format="video">🎬 Video</button>
+            <button class="filter-btn" data-format="banner">🖼️ Banner</button>
+            <button class="filter-btn" data-format="ooh">� Billboard</button>
+            <button class="filter-btn" data-format="print">📰 Print</button>
+            <button class="filter-btn" data-format="social">📱 Social</button>
+        </div>
+        
+        <div class="results-grid" id="results">
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/_-W2GWISwoc/mqdefault.jpg" alt="Kristián Šanca" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Jak napojit Facebook reklamu na CRM a poslat e-mail s e-bookem na kontakty autom</h3>
+                <p class="card-brand">Kristián Šanca</p>
+                <p class="card-desc">Toto video je jedna část ze 4 dílné série: 1) Strategie MAGNET NA ZÁKAZNÍKY: https://youtu.be/xQloNv</p>
+                <a href="https://www.youtube.com/watch?v=_-W2GWISwoc" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/555_2Db840I/mqdefault.jpg" alt="SmartEmailing" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">SmartEmailing - Vyzkoušejte nejoblíbenější český nástroj pro email marketing.</h3>
+                <p class="card-brand">SmartEmailing</p>
+                <p class="card-desc">Začněte zdarma a emailujte během 5 minut jako profesionálové. I VY MŮŽETE DÍKY CHYTRÉMU EMAIL MARKET</p>
+                <a href="https://www.youtube.com/watch?v=555_2Db840I" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/SuEQ2GqKO7w/mqdefault.jpg" alt="GraphicMailcz" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Email marketing s GraphicMailem</h3>
+                <p class="card-brand">GraphicMailcz</p>
+                <p class="card-desc">GraphicMail je marketingová aplikace, která umožňuje uživatelům snadno vytvářet a publikovat emailov</p>
+                <a href="https://www.youtube.com/watch?v=SuEQ2GqKO7w" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/NMvxfruVOfI/mqdefault.jpg" alt="Online21" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Kdy posílat emailové newslettery? Který čas je nejvýhodnější pro posílání emailů</h3>
+                <p class="card-brand">Online21</p>
+                <p class="card-desc">Co pro vás můžeme v online marketingu udělat? Mrkněte na https://www.online21.cz Chcete si domluvit </p>
+                <a href="https://www.youtube.com/watch?v=NMvxfruVOfI" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/NXZQWssu4qs/mqdefault.jpg" alt="Kaufland ČR" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Souhlas se zasíláním e-mailových nabídek na tabletu na prodejně</h3>
+                <p class="card-brand">Kaufland ČR</p>
+                <p class="card-desc">Zasílání nabídek přes e-mail si můžete jednoduše nastavit v aplikaci Kaufland Card. https://www.kauf</p>
+                <a href="https://www.youtube.com/watch?v=NXZQWssu4qs" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/gykW6FDbvd8/mqdefault.jpg" alt="Stanislav Vavřík - E-shop strategie" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Jak zvýšit v roce 2023 počet objednávek na e-shopu, díky video e-mail marketingu</h3>
+                <p class="card-brand">Stanislav Vavřík - E-shop strategie</p>
+                <p class="card-desc">Video e-mailový marketing je marketingová strategie, která zahrnuje použití videa v e-mailech. Video</p>
+                <a href="https://www.youtube.com/watch?v=gykW6FDbvd8" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/apozZblmgiE/mqdefault.jpg" alt="Stanislav Vavřík - E-shop strategie" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Nevydělává vám email marketing minimálně 40% vašeho obratu? Pak děláte něco blbě</h3>
+                <p class="card-brand">Stanislav Vavřík - E-shop strategie</p>
+                <p class="card-desc">Zvyšte svůj obrat z email marketingu až o 40% s tajnými postupy od Milana Třísky! Poznejte, jak Mila</p>
+                <a href="https://www.youtube.com/watch?v=apozZblmgiE" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/pf78hpXEEtU/mqdefault.jpg" alt="Advertisement Canal" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Advertisement Canal | TUTORIÁL na odeslání mailu</h3>
+                <p class="card-brand">Advertisement Canal</p>
+                <p class="card-desc">Upoutávka na kanál AC pište na - AdverCanal@gmail.com.</p>
+                <a href="https://www.youtube.com/watch?v=pf78hpXEEtU" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/lfpHaTUpoUc/mqdefault.jpg" alt="Naučím tě podnikat" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Jak na úspěšný e-mail?</h3>
+                <p class="card-brand">Naučím tě podnikat</p>
+                <p class="card-desc">Jak vám může email zajistit úspěch podnikání?⁠ .⁠ Jak takový email správně napsat?⁠ Jakých chyb se v</p>
+                <a href="https://www.youtube.com/watch?v=lfpHaTUpoUc" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/1zw6NhPTqaM/mqdefault.jpg" alt="Filipesmedia - Vaše externí marketingové oddělení" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Využijte e-mail marketing naplno 📈</h3>
+                <p class="card-brand">Filipesmedia - Vaše externí marketingové oddělení</p>
+                <p class="card-desc">Víte, že aktivní rozesílání newsletteru a automatizovaný e-mailing může výrazně ovlivnit Váš obrat? </p>
+                <a href="https://www.youtube.com/watch?v=1zw6NhPTqaM" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/u6Xjp2ljsCA/mqdefault.jpg" alt="Stanislav Vavřík - E-shop strategie" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Nástroje pro hromadný e-mail marketing</h3>
+                <p class="card-brand">Stanislav Vavřík - E-shop strategie</p>
+                <p class="card-desc">Přihlaste se do VIP klubu a učte se podnikat nově. http://standavavrik.cz/online-klub.html.</p>
+                <a href="https://www.youtube.com/watch?v=u6Xjp2ljsCA" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/zJY6XOYuc6Q/mqdefault.jpg" alt="Patrik Veselý" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Jak využít email newsletter?</h3>
+                <p class="card-brand">Patrik Veselý</p>
+                <p class="card-desc">Email marketing je osvědčená reklamní metoda od svého vzniku, která přináší návratnost až 36 ku 1. A</p>
+                <a href="https://www.youtube.com/watch?v=zJY6XOYuc6Q" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/IAdS8Dq7ObA/mqdefault.jpg" alt="datoveschranky" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Nastavení avíza pomocí SMS a emailu</h3>
+                <p class="card-brand">datoveschranky</p>
+                <p class="card-desc">Jak nastavit zasílání informací o dění ve vaší datové schránce na email nebo do mobilu pomocí SMS.</p>
+                <a href="https://www.youtube.com/watch?v=IAdS8Dq7ObA" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/Bn77ahXA7gw/mqdefault.jpg" alt="ngemailing" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">Promo video ngemailing.cz</h3>
+                <p class="card-brand">ngemailing</p>
+                <p class="card-desc">Vyzkoušejte zdarma službu https://www.ngemailing.cz/ a využívejte pokročilé funkce: -segmentace (roz</p>
+                <a href="https://www.youtube.com/watch?v=Bn77ahXA7gw" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="video">
+            <div class="card-img"><img src="https://i.ytimg.com/vi/lFD6bIgPd5s/mqdefault.jpg" alt="Shoptet" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">YouTube</span>
+                    <span class="format-badge video">video</span>
+                </div>
+                <h3 class="card-title">MARKETINGOVÝ TRYCHTÝŘ V E-MAILINGU - Shoptet.TV (34. díl)</h3>
+                <p class="card-brand">Shoptet</p>
+                <p class="card-desc">Marketingový trychtýř v e-mailingu slouží k ujasnění fází nákupního rozhodnutí, nastavení procesu ko</p>
+                <a href="https://www.youtube.com/watch?v=lFD6bIgPd5s" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/a0/fb/2b/a0fb2bb1c98a8050a2180111d32758dc.jpg" alt="a" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">a hand holding a piece of meat over water with the words, un macello d'acqua</h3>
+                <p class="card-brand">a</p>
+                <p class="card-desc">a hand holding a piece of meat over water with the words, un macello d'acqua</p>
+                <a href="https://pinterest.com/pin/22166223148216306/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/9a/da/75/9ada75eecf643db6dde67cd626bfb574.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for a coffee drink and food item on a blue background with info</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for a coffee drink and food item on a blue background with information about the pr</p>
+                <a href="https://pinterest.com/pin/774124930810699/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/9a/60/2e/9a602ebc39ddb50b0a09a9ac7cdc897a.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for cookies and cappuccino with a cookie in the shape of a teap</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for cookies and cappuccino with a cookie in the shape of a teapot</p>
+                <a href="https://pinterest.com/pin/774124923408770/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/ec/cf/d0/eccfd0c64112d3d6e48b9baeeb472a38.jpg" alt="a" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">a woman with a suitcase walking towards a train on the tracks that says safar ka</h3>
+                <p class="card-brand">a</p>
+                <p class="card-desc">a woman with a suitcase walking towards a train on the tracks that says safar ka sathi</p>
+                <a href="https://pinterest.com/pin/25755029113299330/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/f2/37/07/f2370741101357b8f02c008094d2120f.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for the amazon store with various electronics and appliances on</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for the amazon store with various electronics and appliances on it's side</p>
+                <a href="https://pinterest.com/pin/36662184457485102/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="social">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/b5/71/e5/b571e5e1ff9db1baee1f8d49e40722f4.jpg" alt="a" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    <span class="format-badge social">social</span>
+                </div>
+                <h3 class="card-title">a woman holding up her cell phone while sitting on the ground with an advertisem</h3>
+                <p class="card-brand">a</p>
+                <p class="card-desc">a woman holding up her cell phone while sitting on the ground with an advertisement for social offer</p>
+                <a href="https://pinterest.com/pin/30188259996926371/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/68/ca/5c/68ca5c66142ebffa0b19e26eea206c73.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for the summer is coming with two glasses of mojitta and limes</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for the summer is coming with two glasses of mojitta and limes</p>
+                <a href="https://pinterest.com/pin/27725353948166795/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/01/54/58/015458fc6ab26c9a7d5ef738a698f85e.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for yogurt and mango juice</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for yogurt and mango juice</p>
+                <a href="https://pinterest.com/pin/8585055536428463/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/3d/c6/51/3dc6516b8e9050bf44533b1ecc74f624.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an orange juice is in the grass with flowers</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an orange juice is in the grass with flowers</p>
+                <a href="https://pinterest.com/pin/189503096824803942/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="print">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/e2/54/f5/e254f5b40c8efdf8d76c6f2ddd412302.jpg" alt="the" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    <span class="format-badge print">print</span>
+                </div>
+                <h3 class="card-title">the front cover of marketer magazine, with an image of people in blue and white</h3>
+                <p class="card-brand">the</p>
+                <p class="card-desc">the front cover of marketer magazine, with an image of people in blue and white</p>
+                <a href="https://pinterest.com/pin/537617274246847331/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/c7/3e/4d/c73e4da74f1d31e6f1a8dc3c6c96d961.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for a microwave oven with the words, quick and delicious deligh</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for a microwave oven with the words, quick and delicious delights microwave oven ov</p>
+                <a href="https://pinterest.com/pin/85146249200122206/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/3a/fa/dc/3afadcef38fc772eae0b77a6c26c427c.jpg" alt="a" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">a poster with an electronic circuit in the shape of a heart</h3>
+                <p class="card-brand">a</p>
+                <p class="card-desc">a poster with an electronic circuit in the shape of a heart</p>
+                <a href="https://pinterest.com/pin/213709944813872707/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/d2/8a/eb/d28aebb44dda37d31a3b73e2e8192c61.jpg" alt="an" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">an advertisement for jump start's new drink, the end of month promotion discount</h3>
+                <p class="card-brand">an</p>
+                <p class="card-desc">an advertisement for jump start's new drink, the end of month promotion discount is 25 % off</p>
+                <a href="https://pinterest.com/pin/14918242507338681/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+
+        <div class="result-card" data-format="other">
+            <div class="card-img"><img src="https://i.pinimg.com/236x/c0/84/6c/c0846c84768b6e57134b721a14a168b5.jpg" alt="a" loading="lazy" onerror="this.src='https://picsum.photos/400/300?blur'"></div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="source">Pinterest</span>
+                    
+                </div>
+                <h3 class="card-title">a bottle of apple juice on a table with apples and a butterfly flying over it</h3>
+                <p class="card-brand">a</p>
+                <p class="card-desc">a bottle of apple juice on a table with apples and a butterfly flying over it</p>
+                <a href="https://pinterest.com/pin/28006828929626369/" target="_blank" class="card-link">Otevřít →</a>
+            </div>
+        </div>
+        </div>
+        
+        <div class="footer">
+            AD Finder — Thematická inspirace pro reklamní kampaně
+        </div>
+    </div>
+    
+    <script>
+        // Client-side filtering
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const fmt = btn.dataset.format;
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                document.querySelectorAll('.result-card').forEach(card => {
+                    card.style.display = (fmt === 'all' || card.dataset.format === fmt) ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
